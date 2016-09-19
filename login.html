@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<title>用户登录</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+<nav>
+	<div id="logo">宠物社区</div>
+</nav>
+<div id="login">
+	<fieldset>
+		<h3 href="detail.html">用户登录</h3>
+		<div class="hr"></div>
+		<div class="login-content">
+			<div id="username">
+				<label for="txtName">用户名：</label>
+			    <input type="text" id="txtName" class="txt" placeholder="user" tabindex="1" required="true">
+			</div><br>
+			<div id="password">
+				<label for="txtPass">密&nbsp;&nbsp;&nbsp;码：</label>
+				<input type="password" id="txtPass" class="txt" placeholder="passs" tabindex="2" required="true">
+			</div><br>
+			<div class="btnCenter">
+				<input type="button" id="Goto" value="登录" class="btn">&nbsp;&nbsp;
+				<input type="reset" id="Reset" value="取消" class="btn">&nbsp;&nbsp;
+				<input type="button" id="Regist" value="注册" class="btn">
+			</div>
+			<span class="clsTip" id="divMsg">正在发送登录请求...</span>
+		</div>
+	</fieldset>
+</div>
+</body>
+</html>
